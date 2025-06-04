@@ -13,9 +13,9 @@ class Distance{
 			cout << "Distance = " << km << "km " << m << "m ";
 		
 		}
-		friend Distance calc(Distance, Distance);
+		friend Distance calc(Distance, Distance); // Distance is an object
 };
-
+//friend function can access both private and public
 Distance calc(Distance d1, Distance d2){
 Distance output;
 output.km = d1.km + d2.km;
