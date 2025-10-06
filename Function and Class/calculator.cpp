@@ -19,10 +19,10 @@ class Calculator{
 	int subtract(){
 		return a - b;
 	}
-	multiply(){
+	int multiply(){
 	return a * b;
 	}
-	divide(){
+	int divide(){
 		if(b != 0){
 		return a / b;	
 		}
